@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+body {
+  background-color: #000;
+}
+
+
+    .current-events{
+        color: rgb(237, 217, 190);
+        padding-top: 15%;
+    }
+
+.hero-image {
+      position: relative;
+      width: 100%;
+      height: 100vh; /* Adjust this value as per your needs */
+      background-image: url('IntroImage.png');
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+    }
+
+    .tab-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.tab {
+  float: left;
+  padding: 12px 16px;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  color: #eef0eb;
+}
+
+.tab:hover {
+  background-color: #169cea;
+}
+
+.tab.active {
+  background-color: #2a52f3;
+}
+
+.marquee {
+      height: 200px;
+      overflow: auto;
+      border: 1px solid #ccc;
+    }
+    
+    .marquee-content {
+      display: flex;
+      flex-direction: column;
+      animation: marquee-scroll 20s linear infinite;
+    }
+    
+    @keyframes marquee-scroll {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-100%);
+      }
+    }
+    
+    .news-link {
+      margin-bottom: 10px;
+    }
+   
+
+    #video {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 2%;
+  }
+
+  #video iframe {
+    width: 70%; /* Adjust the width as per your preference */
+    height: 315px;
+  }
+
+  #video div {
+    width: 30%; /* Adjust the width as per your preference */
+  }
+
+
+</style>
+</head>
+
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1>Chandrayaan-3 Guide</h1>
+          <p>By Atharva Pathak</p>
+
+        
+    
+
+          <div class="tab-list">
+           <b> <a href="mission_overview.html" class="tab">Mission Overview</a> </b>
+            <b><a href="components.html" class="tab">Components</a></b>
+            <b><a href="journey.html" class="tab">Journey</a></b>
+            <b><a href="team.html" class="tab">Team</a></b>
+           <b><a href="gallery.html" class="tab">Gallery</a>    </b>                                                                                   
+            <b><a href="chandrayaan2.html" class="tab">Chandrayaan 2</a></b>
+          </div>
+
+   
+     <div class="current-events"> <b>CURRENT EVENTS   </b></div>   
+    <div class="marquee">
+        <div class="marquee-content">
+          <p>Chandrayaan-3 to be launched on 14/7/2023 on 2.35 PM IST</p>
+
+        </div>
+      </div>
+
+      
+
+    </div>
+</div>  
+
+
+
+<div id="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/q2ueCg9bvvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+
+  <div>
+    <p style="color: #e4e0e0; font-family:'Roboto', sans-serif;">Chandrayaan-3 is a planned third lunar exploration mission by the Indian Space Research Organisation (ISRO). It is a follow-on mission to Chandrayaan-1 and Chandrayaan-2. The mission is scheduled to launch on July 14, 2023, from the Satish Dhawan Space Centre in Sriharikota, India.</p>
+
+    <p style="color: #e4e0e0; font-family:'Roboto', sans-serif;">The main objective of Chandrayaan-3 is to soft-land a rover on the lunar surface. The rover will be equipped with a variety of instruments to study the lunar surface, including a camera, a spectrometer, and a magnetometer. The mission will also deploy a lander and an orbiter. The lander will collect data on the lunar surface, and the orbiter will study the lunar atmosphere and surface.</p>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
